@@ -76,7 +76,7 @@ export default function Home() {
                 <h4>Etymology</h4>
                 <p>Animus - Means mind</p>
                 <p>Credo - means personal belief and principles</p>
-                <p>Via - means "by way of", which is from Latin word road (The via Appia was one of the famous highways of ancient Roman times).</p>
+                <p>Via - means &quot;by way of&quot;, which is from Latin word road (The via Appia was one of the famous highways of ancient Roman times).</p>
               </div>
               <div className='daily-list grey'>
                 <h4>Benjamin Disraeli</h4>
@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               <div className='daily-list'>
                 <h4>Henry Ford</h4>
-                <p>Whether you think you can, or you think you can't, you are right..</p> 
+                <p>Whether you think you can, or you think you can&apos;t, you are right..</p>
               </div>
               <div className='daily-list grey'>
                 <h4>Lao Tzu</h4>
@@ -134,7 +134,7 @@ export default function Home() {
                     <li>To be in a state where i am at ease in my day to day life</li>
                     <li>To be in a state where i am at peace with me , my environment , my surrounding and my day to day work</li>
                     <li>To be physically healthy</li>
-                    <li>To be in a state where i am being productive and don't feel stressed</li>
+                    <li>To be in a state where i am being productive and don&apos;t feel stressed</li>
                     <li>To be in state where i am not dwelling too much on past and not being too anxious about future</li>
                   </ul>
                 </div> 
