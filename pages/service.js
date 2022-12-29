@@ -18,9 +18,9 @@ export default function Service() {
         <div className='container'>
           <div className='header-wrappr'>
             <div className='logo'>
-              <a href='#'>
+              <Link href='/'>
                 <img src='/images/logo.svg' alt='' />
-              </a>
+              </Link>
             </div>
             <div className='right-navigation'>
                 <ul>
@@ -37,9 +37,9 @@ export default function Service() {
                         <Link href='/'>Contact Us</Link>
                     </li>
                     <li>
-                        <a href=''>
+                        <Link href=''>
                             <button type='button' className='btn'>BOOK SESSION</button>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -137,11 +137,11 @@ export default function Service() {
                <h4>Links</h4>
                <div className='links'>
                 <ul>
-                  <li><a href='#'>Home</a></li>
-                  <li><a href='#'>Services</a></li>
-                  <li><a href='#'>About Us</a></li>
-                  <li><a href='#'>Self Help Resources</a></li>
-                  <li><a href='#'>Contact Us</a></li>
+                  <li><Link href='/'>Home</Link></li>
+                  <li><Link href='#'>Services</Link></li>
+                  <li><Link href='#'>About Us</Link></li>
+                  <li><Link href='/self-help-resource'>Self Help Resources</Link></li>
+                  <li><Link href='/'>Contact Us</Link></li>
                 </ul>
                </div>
             </div>
