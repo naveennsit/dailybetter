@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
-import { Inter } from '@next/font/google' 
+import { Inter } from '@next/font/google'
+import Link from "next/link";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,23 +21,23 @@ export default function Home() {
         <div className='container'>
           <div className='header-wrappr'>
             <div className='logo'>
-              <a href='#'>
+              <a href='/'>
                 <img src='/images/logo.svg' alt='' />
               </a>
             </div>
             <div className='right-navigation'>
               <ul>
                 <li>
-                  <a href=''>Home</a>
+                  <Link href='/'>Home</Link>
                 </li>
                 <li>
-                  <a href=''>Services</a>
+                  <Link href='/service'>Services</Link>
                 </li>
                 <li>
-                  <a href=''>Self Help Resources</a>
+                  <Link href='/self-help-resource'>Self Help Resources</Link>
                 </li>
                 <li>
-                  <a href=''>Contact Us</a>
+                  <Link href='/'>Contact Us</Link>
                 </li>
                 <li>
                   <a href=''>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
+import Link from "next/link";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,25 +23,25 @@ export default function Service() {
               </a>
             </div>
             <div className='right-navigation'>
-              <ul>
-                <li>
-                  <a href=''>Home</a>
-                </li>
-                <li>
-                  <a href=''>Services</a>
-                </li>
-                <li>
-                  <a href=''>Self Help Resources</a>
-                </li>
-                <li>
-                  <a href=''>Contact Us</a>
-                </li>
-                <li>
-                  <a href=''>
-                     <button type='button' className='btn'>BOOK SESSION</button>
-                  </a>
-                </li>
-              </ul>
+                <ul>
+                    <li>
+                        <Link href='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link href='/service'>Services</Link>
+                    </li>
+                    <li>
+                        <Link href='/self-help-resource'>Self Help Resources</Link>
+                    </li>
+                    <li>
+                        <Link href='/'>Contact Us</Link>
+                    </li>
+                    <li>
+                        <a href=''>
+                            <button type='button' className='btn'>BOOK SESSION</button>
+                        </a>
+                    </li>
+                </ul>
             </div>
           </div>
         </div>
