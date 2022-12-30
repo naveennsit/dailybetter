@@ -21,22 +21,25 @@ export default function Home() {
         <div className='container'>
           <div className='header-wrappr'>
             <div className='logo'>
+              <div className='menu-icon'>
+                <img src='/images/menu-icon.svg' />
+              </div>
               <Link href='/'>
                 <img src='/images/logo.svg' alt='' />
               </Link>
             </div>
             <div className='right-navigation'>
               <ul>
-                <li>
+                <li className='mobile-hide'>
                   <Link href='/'>Home</Link>
                 </li>
-                <li>
+                <li className='mobile-hide'>
                   <Link href='/service'>Services</Link>
                 </li>
-                <li>
+                <li className='mobile-hide'>
                   <Link href='/self-help-resource'>Self Help Resources</Link>
                 </li>
-                <li>
+                <li className='mobile-hide'>
                   <Link href='/'>Contact Us</Link>
                 </li>
                 <li>
@@ -49,6 +52,29 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <div className='overley'></div>
+      <div className='sidebar'>
+        <div className='sidebar-wrappr'>
+          <div className='side-bar-logo'>
+            <img src='/images/logo.svg' />
+          </div>
+          <ul>
+          <li>
+                  <Link href='/'>Home</Link>
+                </li>
+                <li>
+                  <Link href='/service'>Services</Link>
+                </li>
+                <li>
+                  <Link href='/self-help-resource'>Self Help Resources</Link>
+                </li>
+                <li>
+                  <Link href='/'>Contact Us</Link>
+                </li> 
+          </ul>
+        </div>
+      </div>
 
 
       <div className='banner-container'>
