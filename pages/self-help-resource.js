@@ -5,6 +5,10 @@ import Link from "next/link";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function SelfHelpResource() {
+    const [state,setState] = useState(false);
+    const onClickMenu =(updateState)=>{
+        setState(updateState)
+    }
   return (
     <>
       <Head>
@@ -18,7 +22,7 @@ export default function SelfHelpResource() {
         <div className='container'>
           <div className='header-wrappr'>
             <div className='logo'>
-              <div className='menu-icon'>
+              <div className='menu-icon' onClick={()=>onClickMenu(true)}>
                 <img src='/images/menu-icon.svg' />
               </div>
               <Link href='/'>
@@ -50,8 +54,8 @@ export default function SelfHelpResource() {
         </div>
       </header>
 
-      <div className='overley'></div>
-      <div className='sidebar'>
+        <div className={`overley ${state ? 'active' : ''}`} onClick={()=>onClickMenu(false)}></div>
+        <div className={`sidebar ${state ? 'active' : ''}`}>
         <div className='sidebar-wrappr'>
           <div className='side-bar-logo'>
             <img src='/images/logo.svg' />

@@ -2,11 +2,16 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Link from "next/link";
+import {useState} from "react";
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+    const [state,setState] = useState(false);
+    const onClickMenu =(updateState)=>{
+        setState(updateState)
+    }
   return (
     <>
       <Head>
@@ -21,7 +26,7 @@ export default function Home() {
         <div className='container'>
           <div className='header-wrappr'>
             <div className='logo'>
-              <div className='menu-icon'>
+              <div className='menu-icon' onClick={()=>onClickMenu(true)}>
                 <img src='/images/menu-icon.svg' />
               </div>
               <Link href='/'>
@@ -53,8 +58,8 @@ export default function Home() {
         </div>
       </header>
 
-      <div className='overley'></div>
-      <div className='sidebar'>
+      <div className={`overley ${state ? 'active' : ''}`} onClick={()=>onClickMenu(false)}></div>
+      <div className={`sidebar ${state ? 'active' : ''}`}>
         <div className='sidebar-wrappr'>
           <div className='side-bar-logo'>
             <img src='/images/logo.svg' />
