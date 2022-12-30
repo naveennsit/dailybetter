@@ -3,7 +3,7 @@ body {font-family: Poppins,Helvetica,sans-serif; background-color: #F6F6F6;}
 
 
 header {background-color: #fff; box-shadow: 0 1px 5px rgb(0 0 0 / 20%); position: fixed; top: 0px; left: 0px; width: 100%; z-index: 99; height: 72px; line-height: 72px;}
-.logo img {width: 180px;}
+.logo img {width: 120px;}
 header .header-wrappr {display: flex; align-items: center; justify-content: space-between;}
 .right-navigation ul {display: flex; margin: 0px; align-items: center; list-style: none;}
 .right-navigation ul li a {display: block; padding: 0px 15px; font-size: 14px; color: #000;}
@@ -132,7 +132,7 @@ footer {background: #000; padding: 50px 0px 20px;}
     .footer-wrappr {flex-wrap: wrap;}
     .right-navigation ul li a button {padding: 5px 14px; font-size: 12px;}
     .right-navigation ul li a {padding: 0px;}
-    .logo img {width: 130px;}
+    .logo img {width: 110px;}
     .service-wrappr .service-item {width: calc(100% / 2 - 15px);}
     .service-wrappr .service-item:nth-child(3) {margin-right: 15px;}
     .service-wrappr .service-item:nth-child(2), .service-wrappr .service-item:nth-child(4),

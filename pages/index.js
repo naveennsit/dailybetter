@@ -30,7 +30,7 @@ export default function Home() {
                 <img src='/images/menu-icon.svg' />
               </div>
               <Link href='/'>
-                <img src='/images/logo.svg' alt='' />
+                <img src='/images/logo.jpeg' alt='' width={80}/>
               </Link>
             </div>
             <div className='right-navigation'>
@@ -62,7 +62,7 @@ export default function Home() {
       <div className={`sidebar ${state ? 'active' : ''}`}>
         <div className='sidebar-wrappr'>
           <div className='side-bar-logo'>
-            <img src='/images/logo.svg' />
+            <img src='/images/logo.jpeg'  width={80}/>
           </div>
           <ul>
           <li>
