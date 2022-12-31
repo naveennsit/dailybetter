@@ -3,7 +3,7 @@ body {font-family: Poppins,Helvetica,sans-serif; background-color: #F6F6F6;}
 
 
 header {background-color: #fff; box-shadow: 0 1px 5px rgb(0 0 0 / 20%); position: fixed; top: 0px; left: 0px; width: 100%; z-index: 99; height: 72px; line-height: 72px;}
-.logo img {width: 120px;}
+.logo img {width: 110px;}
 header .header-wrappr {display: flex; align-items: center; justify-content: space-between;}
 .right-navigation ul {display: flex; margin: 0px; align-items: center; list-style: none;}
 .right-navigation ul li a {display: block; padding: 0px 15px; font-size: 14px; color: #000;}
@@ -195,3 +195,7 @@ footer {background: #000; padding: 50px 0px 20px;}
 
 
   }
+
+header {
+    background: rgb(202,238,202);
+}
