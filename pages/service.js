@@ -26,6 +26,24 @@ export default function Service() {
         </div>
       </div>
 
+      <div className='service-box'>
+        <div className='row' style={{marginLeft : '0px', marginRight : '0px', height : 'inherit'}}>
+          <div className='col-md-6 service-box1'>
+            <div style={{ margin : 'auto', marginBottom : '0px'}}>
+              <p style={{fontWeight : '600'}}>“Nurture your mind with great thoughts, for you will never go any higher than you think”...</p>
+            </div>
+            <div style={{textAlign : 'end', color : 'darkblue'}}>
+              Benjamin Disraeli
+            </div>
+          </div>
+          <div className='col-md-6 service-box2'>
+            <div>
+              <img src='/images/service_box_image.jpeg' style={{maxWidth : '100%', height : 'auto'}}/>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className='service-area'>
         <div className='container'>
           <div className='service-wrappr'>
