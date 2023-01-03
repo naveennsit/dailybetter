@@ -26,6 +26,24 @@ export default function Service() {
         </div>
       </div>
 
+      <div className='service-box'>
+        <div className='container'>
+          <div className='service-box-img'>
+            <div className='service-box-img1'>
+              <span className='qoute'>“</span>
+              <h4>
+              Nurture your mind with great thoughts, for you will never go any higher than you think”...
+              </h4>
+              <span className='qoute1'>“</span>
+              <p>Benjamin Disraeli</p>
+            </div>
+            <div className='service-box-img2'>
+              <img src='/images/service_box_image.jpeg' />
+            </div>
+          </div> 
+        </div>
+      </div>
+
       <div className='service-area'>
         <div className='container'>
           <div className='service-wrappr'>

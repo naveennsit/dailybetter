@@ -73,6 +73,30 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='service-box'>
+        <div className='container'>
+          <div className='service-box-img home-service'>
+            <div className='service-box-img1'> 
+              <h4>
+              AnimusViaCredo
+              </h4> 
+              <p>Road to mind through Self Awareness and Belief</p>
+              <div className='home-box-section'>
+                <h5>Etymology</h5>
+                <ul>
+                  <li>Animus </li>
+                  <li>Credo</li>
+                  <li>Via</li>
+                </ul>
+              </div>
+            </div>
+            <div className='service-box-img2'>
+              <img src='/images/home-page-img.png' />
+            </div>
+          </div> 
+        </div>
+      </div>
+
       <div className='our-section'>
         <div className='container'>
           <div className='our-section-wrappr'>

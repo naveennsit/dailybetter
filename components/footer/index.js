@@ -1,14 +1,16 @@
 import React from 'react';
 import Link from "next/link";
+import WhatsappFooterButton from '../WhatsappFooterButton';
 
 const Footer = () => {
     return (
+        <>
         <footer>
             <div className='container'>
                 <div className='footer-wrappr'>
                     <div className='footer-items'>
                         <div className='footer-logo'>
-                            <img src='/images/logo.jpeg' alt='' />
+                            <img src='/images/logo_new.jpeg' alt='' />
                         </div>
                         <p>
                             Building a trusted brand for self help and mental health
@@ -18,15 +20,19 @@ const Footer = () => {
                         <h4>Contact Details</h4>
                         <div className='contact-address'>
                             <div className='adress-1'>
-                                B-101, Ganesh Peth Ln, Ganesh Nagar, Juwekar Wadi, Dadar, Mumbai, Maharashtra 400028
+                            Space Creattors Heights, 3rd Floor, Landmark Cyberpark, Sector 67, Gurgaon (Haryana) -122018
+                            </div>
+                            <div className='adress-1' style={{display : 'inline-grid'}}>
+                                <Link href={'tel:' + '+91-7838553377'}>
+                                    Phone : +91-7838553377
+                                </Link>
+                                <Link href={'mailto:' + 'dailybetter108@gmail.com'}>
+                                    Mail : dailybetter108@gmail.com
+                                </Link>   
                             </div>
                             <div className='adress-1'>
-                                Phone: +91 9972449749
-                                Mail: mindvoyageofficial@gmail.com
-                            </div>
-                            <div className='adress-1'>
-                                Mon - Fri: 9am - 6pm <br></br>
-                                Sat & Sun: 11am-7pm
+                                Mon - Fri : 9am - 6pm <br></br>
+                                Sat & Sun : 11am-7pm
                             </div>
                         </div>
                     </div>
@@ -59,6 +65,8 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        <WhatsappFooterButton />
+        </>
     );
 };
 
