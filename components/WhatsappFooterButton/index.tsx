@@ -2,7 +2,16 @@ import React from 'react';
 
 const WhatsappFooterButton = () => {
     return (
-        <div className='whatsapp-button-wraper'>
+        <div className='whatsapp-button-wraper' 
+            onClick={() => {
+                window.open(
+                    'https://web.whatsapp.com/send?phone=' + '917838553377',
+                  );
+            }}
+            style={{
+                cursor: 'pointer',
+            }}
+        >
             <div className='whatsapp-button-wraper-box'>
                 <div className='whatsapp-button-main'>
                     <div className='row' style={{alignItems : 'center'}}>
