@@ -37,19 +37,35 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <div className='service-box'>
+        <div className='container'>
+          <div className='service-box-img home-service'>
+            <div className='service-box-img1'>
+              <h4>
+                AnimusViaCredo
+              </h4>
+              <p>Road to mind through Self Awareness and Belief</p>
+              <div className='home-box-section'>
+                <h5>Etymology</h5>
+                <ul>
+                  <li>Animus - Means mind</li>
+                  <li>Credo - means personal belief and principles</li>
+                  <li>Via - means &quot;by way of&quot;, which is from Latin word road (The via Appia was one of the famous highways of ancient Roman times).</li>
+                </ul>
+              </div>
+            </div>
+            <div className='service-box-img2'>
+              <img src='/images/home-page-img.png' />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='daily-banner-container'>
         <div className='container'>
           <div className='daily-banner-wrappr'>
             <h2>Daily Better</h2>
             <p className='subtitle'>AnimusViaCredo - Road to mind through Self Awareness and Belief</p>
             <div className='daily-list-box'>
-              <div className='daily-list'>
-                <h4>Etymology</h4>
-                <p>Animus - Means mind</p>
-                <p>Credo - means personal belief and principles</p>
-                <p>Via - means &quot;by way of&quot;, which is from Latin word road (The via Appia was one of the famous highways of ancient Roman times).</p>
-              </div>
               <div className='daily-list grey'>
                 <h4>Benjamin Disraeli</h4>
                 <p>Nurture your mind with great thoughts, for you will never go any higher than you think </p> 
@@ -73,29 +89,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='service-box'>
-        <div className='container'>
-          <div className='service-box-img home-service'>
-            <div className='service-box-img1'> 
-              <h4>
-              AnimusViaCredo
-              </h4> 
-              <p>Road to mind through Self Awareness and Belief</p>
-              <div className='home-box-section'>
-                <h5>Etymology</h5>
-                <ul>
-                  <li>Animus </li>
-                  <li>Credo</li>
-                  <li>Via</li>
-                </ul>
-              </div>
-            </div>
-            <div className='service-box-img2'>
-              <img src='/images/home-page-img.png' />
-            </div>
-          </div> 
-        </div>
-      </div>
+
 
       <div className='our-section'>
         <div className='container'>

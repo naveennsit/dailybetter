@@ -35,7 +35,7 @@ const Index = () => {
                                     <Link href='/'>Contact Us</Link>
                                 </li>
                                 <li>
-                                    <Link href=''>
+                                    <Link href='/book-session'>
                                         <button type='button' className='btn'>BOOK SESSION</button>
                                     </Link>
                                 </li>

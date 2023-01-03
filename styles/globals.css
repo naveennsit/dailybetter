@@ -204,7 +204,7 @@ footer {background: #000; padding: 50px 0px 20px;}
 .payment-wrappr .price-box {width: 50%;}
 
 .qr-code {text-align: center;}
-.qr-code img {width: 130px;}
+.qr-code img {width: 350px;}
 .qr-code p {margin-top: 10px; font-weight: 600;}
 .payment-box p {text-align: center; margin-bottom: 5px;}
 .bank-detail {margin-top: 20px; padding: 10px; background: #f2f6ff; border-radius: 6px; border: 1px solid #d1dbf2; margin-bottom: 20px;}

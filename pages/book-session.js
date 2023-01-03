@@ -61,7 +61,7 @@ export default function SelfHelpResource() {
               <div className='slot-box'>
                 <div className='slot-time'>
                   <span>30</span>
-                  Min slot
+                  min slot
                 </div>
                 <div className='slot-price'>
                   <div className='slot-price-rate'>
@@ -76,8 +76,8 @@ export default function SelfHelpResource() {
               </div>
               <div className='slot-box'>
                 <div className='slot-time'>
-                  <span>01</span>
-                  Hour slot
+                  <span>60</span>
+                   Min slot
                 </div>
                 <div className='slot-price'>
                   <div className='slot-price-rate'>

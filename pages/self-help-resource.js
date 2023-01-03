@@ -27,6 +27,24 @@ export default function SelfHelpResource() {
         </div>
       </div>
 
+      <div className='service-box'>
+        <div className='container'>
+          <div className='service-box-img selp-resource'>
+            <div className='service-box-img1'>
+              <h4>
+                It’s about doing a few “Satisfying and Enriching” things daily.
+              </h4>
+              <h4>
+                You are a “Sum” of all these few things which you do daily
+              </h4>
+            </div>
+            <div className='service-box-img2'>
+              <img src='/images/self-help-img.png' />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className='self-help-section'>
         <div className='container'>
           <div className='self-help-wrappr'>
@@ -58,23 +76,7 @@ export default function SelfHelpResource() {
         </div>
       </div>
 
-      <div className='service-box'>
-        <div className='container'>
-          <div className='service-box-img selp-resource'>
-            <div className='service-box-img1'> 
-              <h4>
-              It’s about doing a few “Satisfying and Enriching” things daily. 
-              </h4>
-              <h4>
-              You are a “Sum” of all these few things which you do daily 
-              </h4> 
-            </div>
-            <div className='service-box-img2'>
-              <img src='/images/self-help-img.png' />
-            </div>
-          </div> 
-        </div>
-      </div>
+
 
       <div className='blog-section'>
         <div className='container'>
