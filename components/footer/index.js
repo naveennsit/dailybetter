@@ -31,8 +31,8 @@ const Footer = () => {
                                 </Link>   
                             </div>
                             <div className='adress-1'>
-                                Mon - Fri : 9am - 6pm <br></br>
-                                Sat & Sun : 11am-7pm
+                                Mon - Fri : 10 AM - 11 PM <br></br>
+                                Sat & Sun : 11 AM - 11 PM
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Footer = () => {
                             </div>
                             <div className='appointmenmt-txt'>
                                 <p>Reach Us</p>
-                                <h5>9947773334</h5>
+                                <h5>7838553377</h5>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,7 @@
 
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Link from "next/link";
-import {useState} from "react";
+
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -66,18 +65,18 @@ export default function Home() {
             <h2>Daily Better</h2>
             <p className='subtitle'>AnimusViaCredo - Road to mind through Self Awareness and Belief</p>
             <div className='daily-list-box'>
-              <div className='daily-list grey'>
-                <h4>Benjamin Disraeli</h4>
-                <p>Nurture your mind with great thoughts, for you will never go any higher than you think </p> 
-              </div>
-              <div className='daily-list'>
-                <h4>Henry Ford</h4>
-                <p>Whether you think you can, or you think you can&apos;t, you are right..</p>
-              </div>
-              <div className='daily-list grey'>
-                <h4>Lao Tzu</h4>
-                <p>Simplicity, patience, compassion. These three are your greatest treasures</p> 
-              </div>
+              {/*<div className='daily-list grey'>*/}
+              {/*  <h4>Benjamin Disraeli</h4>*/}
+              {/*  <p>Nurture your mind with great thoughts, for you will never go any higher than you think </p> */}
+              {/*</div>*/}
+              {/*<div className='daily-list'>*/}
+              {/*  <h4>Henry Ford</h4>*/}
+              {/*  <p>Whether you think you can, or you think you can&apos;t, you are right..</p>*/}
+              {/*</div>*/}
+              {/*<div className='daily-list grey'>*/}
+              {/*  <h4>Lao Tzu</h4>*/}
+              {/*  <p>Simplicity, patience, compassion. These three are your greatest treasures</p> */}
+              {/*</div>*/}
               <p>
               We try to make your life better by showing you a mirror of yourself and the helping you on a path of self awareness and Belief. 
               </p>
@@ -99,11 +98,11 @@ export default function Home() {
               <p>of Experince of Life Coaching</p>
             </div>
             <div className='our-item'>
-              <h4>1000+</h4>
+              <h4>Many</h4>
               <p>Happy Clients</p>
             </div>
             <div className='our-item'>
-              <h4>500+</h4>
+              <h4>Many</h4>
               <p>Better Life</p>
             </div>
           </div>

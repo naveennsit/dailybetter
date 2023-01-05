@@ -34,6 +34,7 @@ export default function SelfHelpResource() {
               <div className='qr-code'>
                 <img src='/images/qr-code.svg' />
                 <p>Scan & Pay</p>
+                <p>UPI ID: 9643754345@paytm</p>
               </div>
               <p>Or send to bank</p>
 

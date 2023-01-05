@@ -32,7 +32,10 @@ const Index = () => {
                                     <Link href='/self-help-resource'>Self Help Resources</Link>
                                 </li>
                                 <li className='mobile-hide'>
-                                    <Link href='/'>Contact Us</Link>
+                                    <Link href='/about'>About Us</Link>
+                                </li>
+                                <li className='mobile-hide'>
+                                    <Link href='/contact'>Contact Us</Link>
                                 </li>
                                 <li>
                                     <Link href='/book-session'>
